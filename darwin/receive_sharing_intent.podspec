@@ -1,3 +1,6 @@
+#
+# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
+#
 Pod::Spec.new do |s|
   s.name             = 'receive_sharing_intent'
   s.version          = '1.8.1'
@@ -9,9 +12,10 @@ A flutter plugin that enables flutter apps to receive sharing photos from other 
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Kasem' => 'kasem.jaffer@gmail.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Sources/ReceiveSharingIntent/**/*'
-  s.public_header_files = 'Sources/ReceiveSharingIntent/**/*.h'
+  s.source_files = 'Sources/**/*'
+  s.public_header_files = 'Sources/**/*.h'
   s.dependency 'Flutter'
 
   s.ios.deployment_target = '12.0'
 end
+
