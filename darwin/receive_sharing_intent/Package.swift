@@ -9,7 +9,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "receive_sharing_intent",
+            name: "receive-sharing-intent",
             type: .static,
             targets: ["receive_sharing_intent"]
         ),
@@ -21,8 +21,8 @@ let package = Package(
             sources: [
                 "RSIShareViewController.swift",
                 "SwiftReceiveSharingIntentPlugin.swift",
-            ],
-            publicHeadersPath: "."
+                "ReceiveSharingIntentPlugin.swift",
+            ]
         ),
     ]
 )
